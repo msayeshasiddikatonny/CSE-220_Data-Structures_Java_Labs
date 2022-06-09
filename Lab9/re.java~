@@ -1,0 +1,49 @@
+public class re{
+  
+  public static void main(String []args){
+    
+    int      temp1= factorial (1);
+    System.out.println("Task1");
+    System.out.println("factorial result "+temp1);
+    int      temp2= fibonacci (1);
+    System.out.println("Task2");
+    System.out.println("fibonacci result "+temp2);
+    int a[]={1,2,3,4,3}; 
+    System.out.println("Task3");
+    print(a,0);
+    int temp3=power(2,3);
+    System.out.println(temp3);
+  }
+  public static  int factorial (int i){   
+    if(i==9) {
+      return 9;
+    }
+    return i*factorial (i+1);
+  }
+  public static int fibonacci(int i){
+    if(i==9) {
+      return 9;
+    }
+    return i+fibonacci (i+1);
+  }
+  public static  void print(int []a,int i){
+    System.out.print(a[i]+" ");
+    
+    if(i<a.length-1)
+     print(a,i+1);
+  }
+  public static int power(int i,int j){
+    if(j==1)
+      return i;
+    return i*i;
+  }
+  public static bin(int i){
+    if(i==1){
+      return "1";
+    }
+    if(n==0)
+            return "0";
+    return bin(n/2)+n%2;
+  }
+  
+}
