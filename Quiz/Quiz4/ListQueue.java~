@@ -1,0 +1,22 @@
+public class ListQueue implements Queue{
+    int size;
+    Node front;
+    Node rear;
+    
+    
+    public ListQueue(){
+        size = 3;
+        Node x =new Node(5,null,3);
+         front=x;
+         
+        Node x1 =new Node(10,null,3);
+        front.next=x1;
+        Node x2 =new Node(15,null,3);
+        x1.next=x2;
+        
+    }
+
+    public void enqueue(Object o) throws QueueOverflowException{
+      
+    }
+}
