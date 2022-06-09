@@ -1,0 +1,16 @@
+public class SetA{
+  public static void triangle(int i){
+     
+  }
+  public static void helper(int i){
+     
+  }
+  public static void main(String[]args){
+    triangle(5);
+  }
+}
+//    1
+//   12
+//  123
+// 1234  
+//12345
