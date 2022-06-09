@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Task10{
+  public static void main (String [] args){
+    int [] array={1, 4, 8, 16, 25, 36, 49, 64, 81, 100};
+    System.out.println("please enter 1 for Right Rotate or enter 0 for Left Rotate ");
+    int r=sc.nextInt();
+    System.out.println("please enter the position");
+    int p=sc.nextInt();
+}
