@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class QuizTester{
+  public static void main (String[]args){
+    Scanner SC = new Scanner(System.in);
+     Object s="231*+9-";
+    
+  }
+}
